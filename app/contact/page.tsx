@@ -3,13 +3,13 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='flex justify-center '>
-      <div className="isolate bg-white rounded-xl px-6 py-24 sm:py-32 lg:px-8">
+      <div className="isolate bg-white rounded-xl px-6 py-14 sm:py-25 lg:px-8">
   <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
   
   </div>
   <div className="mx-auto max-w-2xl text-center">
-    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
-    <p className="mt-2 text-lg leading-8 text-gray-600">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
+    <h2 className="text-3xl font-bold tracking-tight text-[#003049] sm:text-4xl">Contact sales</h2>
+    <p className="mt-2 text-lg leading-8 text-[#669BBC]">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
   </div>
   <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

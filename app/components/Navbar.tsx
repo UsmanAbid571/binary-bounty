@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <ul className="flex justify-center gap-4 py-5 text-lg font-semibold">
+        <ul className="flex justify-center gap-4 py-5 text-lg font-semibold text-[#C1121F]">
             <Link href="/"><li>Home</li></Link>
             <Link href="/blog"><li>Blog</li></Link>
             <Link href="/about"><li>About</li></Link>
