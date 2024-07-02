@@ -1,11 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
 
+
+
 const Navbar = () => {
   return (
     <div>
-      <nav>
-        <ul className="flex justify-center gap-4 py-5 text-lg font-semibold text-[#C1121F]">
+      <nav className='py-5'>
+        
+        <ul className="flex justify-center gap-4 text-lg font-semibold text-[#C1121F]">
+       
             <Link href="/"><li>Home</li></Link>
             <Link href="/blog"><li>Blog</li></Link>
             <Link href="/about"><li>About</li></Link>
